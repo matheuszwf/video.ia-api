@@ -10,7 +10,7 @@ datasource db {
   url      = env("DATABASE_URL")
 }
 
-model Video {
+model Audio {
   id            String   @id @default(uuid())
   name          String
   path          String
