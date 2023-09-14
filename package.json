@@ -6,11 +6,19 @@
   "author": "matheuszwf <matheuszwf@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "dev": "tsx watch src/server.ts"
+    "dev": "tsx watch src/server.ts",
+    "lint": "eslint src --ext .ts"
   },
   "devDependencies": {
     "@types/node": "^20.6.0",
+    "@typescript-eslint/parser": "^6.7.0",
+    "@typescript-eslint/eslint-plugin": "^6.7.0",
     "dotenv": "^16.3.1",
+    "eslint": "^8.0.1",
+    "eslint-plugin-promise": "^6.0.0",
+    "eslint-config-standard": "^17.1.0",
+    "eslint-plugin-import": "^2.25.2",
+    "eslint-plugin-n": "^15.0.0",
     "prisma": "^5.3.0",
     "tsx": "^3.12.10",
     "typescript": "^5.2.2"
