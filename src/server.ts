@@ -8,7 +8,9 @@ import { fastifyCors } from "@fastify/cors";
 const app = fastify()
 const routes = [
   getAllPromptsRoute,
-  uploadAudio
+  uploadAudio,
+  createAudioTranscriptionRoute,
+  generateIaCompletionRoute
 ]
 
 routes.forEach((route) => {
